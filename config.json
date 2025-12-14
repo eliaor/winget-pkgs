@@ -1,0 +1,15 @@
+{
+  "autoInternalize": true,
+  "autoInternalizePath": "./installers",
+  "autoInternalizeSkip": "",
+  "https": true,
+  "httpsCertificateFile": "./certs/cert.pem",
+  "httpsPrivateKeyFile": "./certs/private.key",
+  "listen": "0.0.0.0:8080",
+  "logLevel": "info",
+  "manifestPath": "./packages",
+  "sourceAuthEntraIDAuthorityURL": "",
+  "sourceAuthEntraIDResource": "",
+  "sourceAuthType": "none",
+  "trustedProxies": ""
+}
