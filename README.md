@@ -1,6 +1,5 @@
-
 # Run the docker:
-`docker run -e REWINGED_CONFIGFILE=config.json -p 8080:8080 -v ./config.json:/config.json:ro -v ./certs:/certs:ro -v ${PWD}/packages:/packages:ro -v ${PWD}/installers:/installers ghcr.io/jantari/rewinged:stable`
+`docker run -e REWINGED_CONFIGFILE=config.json -p 8080:8080 -v ./config.json:/config.json:ro -v ./certs:/certs:ro -v ${PWD}/packages:/packages:ro -v ${PWD}/installers:/installers:rw ghcr.io/jantari/rewinged:stable`
 
 # [Look at this repo](https://github.com/jantari/rewinged)
 
